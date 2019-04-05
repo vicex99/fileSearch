@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="commons-codec-1.10">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/Victor/CBD_buckets/dependencies/jars/commons-codec-1.10.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Victor/CBD_buckets/dependencies/jars/commons-collections4-4.1.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Victor/CBD_buckets/dependencies/jars/curvesapi-1.04.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Victor/CBD_buckets/dependencies/jars/graphframes-0.5.0-spark2.1-s_2.11.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Victor/CBD_buckets/dependencies/jars/poi-3.17.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Victor/CBD_buckets/dependencies/jars/poi-ooxml-3.17.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Victor/CBD_buckets/dependencies/jars/poi-ooxml-schemas-3.17.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Victor/CBD_buckets/dependencies/jars/scala-logging-api_2.11-2.1.1.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Victor/CBD_buckets/dependencies/jars/scala-logging-slf4j_2.11-2.1.1.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Victor/CBD_buckets/dependencies/jars/stax-api-1.0.1.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Victor/CBD_buckets/dependencies/jars/xmlbeans-2.6.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
