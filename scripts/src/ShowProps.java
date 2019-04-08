@@ -1,3 +1,4 @@
+package src;
 
 import java.io.*;
 import java.util.*;
@@ -20,10 +21,9 @@ public class ShowProps {
             // muestra el fichero entero
             propertyFile.list(System.out);
 
-            String vers1 = propertyFile.getProperty("DEFAULT/version", "err");
-            String vers2 = propertyFile.getProperty("version", "err");
+            String vers1 = propertyFile.getProperty("data", "err");
 
-            return "version1 = " + vers1 + "/// version2 = " + vers2;
+            return "version1 = " + vers1;
         }
         catch (IOException e) {
             System.out.println("ERROR: conexion con el fichero fallido, NUM : " + e.hashCode());
