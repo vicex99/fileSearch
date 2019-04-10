@@ -6,15 +6,18 @@ import org.apache.commons.configuration.SubnodeConfiguration;
 
 public class propsINIConfigurationAdvanced {
 
-    String layer;
+    private String layer;
 
-    public propsINIConfigurationAdvanced (){
-        layer = "cmd".toLowerCase();
+    private propsINIConfigurationAdvanced (){
+        layer = "urr".toLowerCase();
     }
 
     public static void main(String[] args) {
         propsINIConfigurationAdvanced props = new propsINIConfigurationAdvanced();
 
+        System.out.println(props.getPropertiesUri(props.layer));
+        System.out.println("**********************************************************************************************************************************************************************************************************************************************");
+        props.layer = "class".toLowerCase();
         System.out.println(props.getPropertiesUri(props.layer));
         System.out.println("**********************************************************************************************************************************************************************************************************************************************");
         System.out.println(props.getProperties("pathsOut", "l1_validation_output"));
@@ -25,7 +28,7 @@ public class propsINIConfigurationAdvanced {
      * Define the uri value, depends of layer
      * without the properties variables
      *
-     * @param layer
+     * @param layer - args how have in the java main
      * @return String parameter
      */
     private String getPropertiesUri(String layer) {
